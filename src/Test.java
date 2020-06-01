@@ -9,7 +9,7 @@ class Test {
             season.printSeasonInfo();
 
         } catch (IllegalArgumentException e) {
-            e.getMessage();
+            System.err.println(e.getMessage());
         }
     }
 }
